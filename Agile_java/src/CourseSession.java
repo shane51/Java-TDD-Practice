@@ -4,10 +4,12 @@
 public class CourseSession {
     private String department;
     private String number;
+    private int numberOfStudents;
 
     CourseSession(String department, String number){
         this.department = department;
         this.number = number;
+        numberOfStudents = 0;
     }
 
     String getDepartment(){
@@ -16,5 +18,13 @@ public class CourseSession {
 
     String getNumber(){
         return number;
+    }
+
+    int getNumberOfStudents(){
+        return numberOfStudents;
+    }
+
+    void enroll(Student student){
+        numberOfStudents += 1;
     }
 }
