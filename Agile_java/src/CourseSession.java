@@ -4,13 +4,11 @@
 public class CourseSession {
     private String department;
     private String number;
-    private int numberOfStudents;
     private java.util.ArrayList<Student> students = new java.util.ArrayList<Student>();
 
     CourseSession(String department, String number){
         this.department = department;
         this.number = number;
-        numberOfStudents = 0;
     }
 
     String getDepartment(){
@@ -22,11 +20,10 @@ public class CourseSession {
     }
 
     int getNumberOfStudents(){
-        return numberOfStudents;
+        return students.size();
     }
 
     void enroll(Student student){
-        numberOfStudents += 1;
         students.add(student);
     }
 
