@@ -22,8 +22,8 @@ public class CourseSessionTest extends junit.framework.TestCase {
         session.enroll(student2);
         assertEquals(2, session.getNumberOfStudents());
         assertEquals(2, allStudents.size());
-        assertEuqals(student1, allStudents.get(0));
-        assertEuqals(student2, allStudents.get(1));
+        assertEquals(student1, allStudents.get(0));
+        assertEquals(student2, allStudents.get(1));
 
     }
 }

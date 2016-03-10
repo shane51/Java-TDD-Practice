@@ -22,31 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StudentTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StudentTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="57" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CourseSessionTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CourseSessionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6421233">
-              <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AllTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AllTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.74486303">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -56,16 +36,17 @@
         <entry file="file://$PROJECT_DIR$/src/CourseSession.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
               <folding>
-                <element signature="e#345#346#0" expanded="true" />
-                <element signature="e#378#379#0" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#432#433#0" expanded="true" />
-                <element signature="e#464#465#0" expanded="true" />
-                <element signature="e#503#504#0" expanded="true" />
-                <element signature="e#538#539#0" expanded="true" />
-                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#235#244#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#520#521#0" expanded="true" />
+                <element signature="e#552#553#0" expanded="true" />
+                <element signature="e#591#592#0" expanded="true" />
+                <element signature="e#746#747#0" expanded="true" />
+                <element signature="e#777#778#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,8 +71,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/StudentTest.java" />
         <option value="$PROJECT_DIR$/src/Student.java" />
-        <option value="$PROJECT_DIR$/src/CourseSession.java" />
         <option value="$PROJECT_DIR$/src/AllTests.java" />
+        <option value="$PROJECT_DIR$/src/CourseSession.java" />
         <option value="$PROJECT_DIR$/src/CourseSessionTest.java" />
       </list>
     </option>
@@ -107,8 +88,8 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="378" />
-    <option name="y" value="121" />
+    <option name="x" value="203" />
+    <option name="y" value="96" />
     <option name="width" value="1088" />
     <option name="height" value="704" />
   </component>
@@ -463,7 +444,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="378" y="121" width="1088" height="704" extended-state="0" />
+    <frame x="203" y="96" width="1088" height="704" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -541,7 +522,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StudentTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.07705479">
           <caret line="3" column="57" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="57" />
           <folding />
         </state>
@@ -549,7 +530,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AllTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.25684932">
           <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding />
         </state>
@@ -558,24 +539,25 @@
     <entry file="file://$PROJECT_DIR$/src/CourseSession.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#235#244#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CourseSessionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6421233">
-          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+        <state vertical-scroll-proportion="0.74486303">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
