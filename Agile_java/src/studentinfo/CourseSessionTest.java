@@ -34,4 +34,8 @@ public class CourseSessionTest extends TestCase {
         assertEquals(student2, session.get(1));
 
     }
+
+    public void testCourseDates(){
+        
+    }
 }
