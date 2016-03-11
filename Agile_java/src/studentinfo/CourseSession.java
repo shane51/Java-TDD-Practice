@@ -31,7 +31,7 @@ public class CourseSession {
         students.add(student);
     }
 
-    ArrayList<Student> getAllStudents(){
-        return students;
+    Student get(int index){
+        return students.get(index);
     }
 }
