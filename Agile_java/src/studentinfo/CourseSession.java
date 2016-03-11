@@ -1,6 +1,8 @@
 /**
  * Created by wyqin on 3/8/16.
  */
+
+package studentinfo;
 import java.util.ArrayList;
 
 public class CourseSession {

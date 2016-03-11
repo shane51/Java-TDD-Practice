@@ -1,6 +1,8 @@
 /**
  * Created by wyqin on 3/8/16.
  */
+
+package studentinfo;
 import junit.framework.TestCase;
 import java.util.ArrayList;
 

@@ -1,6 +1,8 @@
 /**
  * Created by wyqin on 1/11/16.
  */
+
+package studentinfo;
 import junit.framework.TestCase;
 
 public class StudentTest extends TestCase {
