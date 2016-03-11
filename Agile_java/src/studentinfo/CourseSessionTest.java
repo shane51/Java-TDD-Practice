@@ -4,8 +4,7 @@
 
 package studentinfo;
 import junit.framework.TestCase;
-import java.util.ArrayList;
-import java.util.Date;
+import java.util.*;
 
 public class CourseSessionTest extends TestCase {
     private CourseSession session;

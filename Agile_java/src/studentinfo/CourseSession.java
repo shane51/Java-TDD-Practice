@@ -3,10 +3,7 @@
  */
 
 package studentinfo;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.Calendar;
-import java.util.GregorianCalendar;
+import java.util.*;
 
 public class CourseSession {
     private String department;
@@ -50,7 +47,6 @@ public class CourseSession {
         calendar.setTime(startDate);
         int numberOfDays = 16 * 7 - 3;
         calendar.add(Calendar.DAY_OF_YEAR, numberOfDays);
-        Date endDate = calendar.getTime();
-        return endDate;
+        return calendar.getTime();
     }
 }
