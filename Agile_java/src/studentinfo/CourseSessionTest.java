@@ -10,11 +10,12 @@ public class CourseSessionTest extends TestCase {
     private CourseSession session;
     private Date startDate;
 
+    Date creatDate(int year, int month, int date){
+        return new Date(year - 1900, month - 1, date);
+    }
+
     public void setUp(){
-        int year = 103;
-        int month = 0;
-        int date = 6;
-        startDate = new Date(year,month,date);
+        startDate = creatDate(2003,1,6);
         session = new CourseSession("ENGL", "101", startDate);
     }
 
