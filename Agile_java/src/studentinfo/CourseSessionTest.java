@@ -43,10 +43,7 @@ public class CourseSessionTest extends TestCase {
     }
 
     public void testCourseDates(){
-        int year = 103;
-        int month = 3;
-        int date = 25;
-        Date sixteenWeeksOut = new Date(year, month, date);
+        Date sixteenWeeksOut = creatDate(2003,4,25);
         assertEquals(sixteenWeeksOut, session.getEndDate());
 
 
