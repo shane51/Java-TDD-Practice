@@ -11,7 +11,12 @@ public class CourseSessionTest extends TestCase {
     private Date startDate;
 
     Date creatDate(int year, int month, int date){
-        return new Date(year - 1900, month - 1, date);
+        GregorianCalendar calendar = new GregorianCalendar();
+        calendar.clear();
+        calendar.set(Calendar.YEAR, year);
+        calendar.set(Calendar.MONTH, month - 1);
+        calendar.set(Calendar.DAY_OF_MONTH, date);
+        return calendar.getTime();
     }
 
     public void setUp(){
@@ -45,7 +50,6 @@ public class CourseSessionTest extends TestCase {
     public void testCourseDates(){
         Date sixteenWeeksOut = creatDate(2003,4,25);
         assertEquals(sixteenWeeksOut, session.getEndDate());
-
 
     }
 }
