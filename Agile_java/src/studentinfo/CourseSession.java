@@ -5,6 +5,12 @@
 package studentinfo;
 import java.util.*;
 
+/**
+ * Provides a representation of a single-semester
+ * session of a specific university course.
+ * @auther Shane Qin
+ */
+
 public class CourseSession {
     private String department;
     private String number;
@@ -15,6 +21,18 @@ public class CourseSession {
     CourseSession(String department, String number, Date startDate){
         this.department = department;
         this.number = number;
+        this.startDate = startDate;
+    }
+
+    CourseSession() {
+    }
+
+    /**
+     * Constructs a CourseSession starting on a specific date
+     *
+     * @param startDate the date on which the CourseSession begins
+     */
+    CourseSession(Date startDate){
         this.startDate = startDate;
     }
 
@@ -42,10 +60,16 @@ public class CourseSession {
         return students.get(index);
     }
 
+    /**
+     * @return Date the last date of the course session
+     */
     Date getEndDate() {
+        final int sessionLength = 16;
+        final int daysInWeek = 7;
+        final int daysFromFridayToMonday = 3;
         GregorianCalendar calendar = new GregorianCalendar();
         calendar.setTime(startDate);
-        int numberOfDays = 16 * 7 - 3; // weeks * days per week - 3 days
+        int numberOfDays = sessionLength * daysInWeek - daysFromFridayToMonday;
         calendar.add(Calendar.DAY_OF_YEAR, numberOfDays);
         return calendar.getTime();
     }
