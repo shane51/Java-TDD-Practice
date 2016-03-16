@@ -1,11 +1,11 @@
-package studentinfo;
+package sis.studentinfo;
 import java.util.*;
 
 /**
  * Created by wyqin on 3/16/16.
  */
 public class DateUtil {
-    Date createDate(int year, int month, int date) {
+    public Date createDate(int year, int month, int date) {
         GregorianCalendar calendar = new GregorianCalendar();
         calendar.clear();
         calendar.set(Calendar.YEAR, year);

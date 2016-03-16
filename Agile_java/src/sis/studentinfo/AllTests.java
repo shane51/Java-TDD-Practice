@@ -1,8 +1,9 @@
 /**
  * Created by wyqin on 3/9/16.
  */
-package studentinfo;
+package sis.studentinfo;
 import junit.framework.TestSuite;
+import sis.report.*;
 
 public class AllTests {
     public static TestSuite suite() {
@@ -10,7 +11,7 @@ public class AllTests {
 
         suite.addTestSuite(StudentTest.class);
         suite.addTestSuite(CourseSessionTest.class);
-        suite.addTestSuite(RosterReportTest.class);
+//        suite.addTestSuite(RosterReportTest.class);
         suite.addTestSuite(DateUtilTest.class);
         return suite;
     }

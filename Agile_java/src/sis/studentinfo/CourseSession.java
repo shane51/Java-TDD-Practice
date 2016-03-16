@@ -2,7 +2,7 @@
  * Created by wyqin on 3/8/16.
  */
 
-package studentinfo;
+package sis.studentinfo;
 import java.util.*;
 
 /**
@@ -22,12 +22,19 @@ public class CourseSession {
 
 
 
-    CourseSession(String department, String number, Date startDate){
+    public CourseSession(String department, String number, Date startDate){
         this.department = department;
         this.number = number;
         this.startDate = startDate;
     }
 
+    public void enroll(Student student){
+        students.add(student);
+    }
+
+    public ArrayList<Student> getAllStudents(){
+        return students;
+    }
     CourseSession() {
     }
 
@@ -56,17 +63,13 @@ public class CourseSession {
         return students.size();
     }
 
-    void enroll(Student student){
-        students.add(student);
-    }
+
 
     Student get(int index){
         return students.get(index);
     }
 
-    ArrayList<Student> getAllStudents(){
-        return students;
-    }
+
 
     /**
      * @return Date the last date of the course session

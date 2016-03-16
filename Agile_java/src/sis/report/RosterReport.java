@@ -1,10 +1,10 @@
-package studentinfo;
-
+package sis.report;
+import sis.studentinfo.*;
 /**
  * Created by wyqin on 3/16/16.
  */
 public class RosterReport {
-    static final String NEWLINE = System.getProperty("lines.separator");
+    static final String NEWLINE = System.getProperty("line.separator");
     static final String ROSTER_REPORT_HEADER =
             "Student" + NEWLINE +
                     "----" + NEWLINE;
@@ -19,16 +19,28 @@ public class RosterReport {
 
     String getRosterReport(){
         StringBuilder buffer = new StringBuilder();
+        writeHeader(buffer);
+        writeBody(buffer);
+        writeFooter(buffer);
 
+        return buffer.toString();
+    }
+
+    void writeHeader(StringBuilder buffer) {
         buffer.append(ROSTER_REPORT_HEADER);
+    }
 
+    void writeBody(StringBuilder buffer) {
         for (Student student: session.getAllStudents()) {
             buffer.append(student.getName());
             buffer.append(NEWLINE);
         }
-
-        buffer.append(ROSTER_REPORT_FOOTER + session.getAllStudents().size() + NEWLINE);
-
-        return buffer.toString();
     }
+
+    void writeFooter(StringBuilder buffer) {
+        buffer.append(ROSTER_REPORT_FOOTER + session.getAllStudents().size() + NEWLINE);
+    }
+
+
+
 }

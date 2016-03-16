@@ -2,7 +2,7 @@
  * Created by wyqin on 1/11/16.
  */
 
-package studentinfo;
+package sis.studentinfo;
 import junit.framework.TestCase;
 
 public class StudentTest extends TestCase {
