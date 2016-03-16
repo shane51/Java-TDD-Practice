@@ -12,12 +12,7 @@ import java.util.*;
  */
 
 public class CourseSession {
-    static final String NEWLINE = System.getProperty("lines.separator");
-    static final String ROSTER_REPORT_HEADER =
-            "Student" + NEWLINE +
-            "----" + NEWLINE;
-    static final String ROSTER_REPORT_FOOTER =
-            NEWLINE + "# students = ";
+
 
 
     private String department;
@@ -69,6 +64,10 @@ public class CourseSession {
         return students.get(index);
     }
 
+    ArrayList<Student> getAllStudents(){
+        return students;
+    }
+
     /**
      * @return Date the last date of the course session
      */
@@ -83,18 +82,5 @@ public class CourseSession {
         return calendar.getTime();
     }
 
-    String getRosterReport(){
-        StringBuilder buffer = new StringBuilder();
 
-        buffer.append(ROSTER_REPORT_HEADER);
-
-        for (Student student: students) {
-            buffer.append(student.getName());
-            buffer.append(NEWLINE);
-        }
-
-        buffer.append(ROSTER_REPORT_FOOTER + students.size() + NEWLINE);
-
-        return buffer.toString();
-    }
 }

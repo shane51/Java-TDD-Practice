@@ -11,13 +11,13 @@ public class RosterReportTest extends TestCase {
         session.enroll(new Student("A"));
         session.enroll(new Student("B"));
 
-        String rosterReport = session.getRosterReport();
+        String rosterReport = new RosterReport(session).getRosterReport();
         assertEquals(
-                CourseSession.ROSTER_REPORT_HEADER +
-                        "A" + CourseSession.NEWLINE +
-                        "B" + CourseSession.NEWLINE +
-                        CourseSession.ROSTER_REPORT_FOOTER +
-                        "2" + CourseSession.NEWLINE,
+                RosterReport.ROSTER_REPORT_HEADER +
+                        "A" + RosterReport.NEWLINE +
+                        "B" + RosterReport.NEWLINE +
+                        RosterReport.ROSTER_REPORT_FOOTER +
+                        "2" + RosterReport.NEWLINE,
                 rosterReport
         );
 
