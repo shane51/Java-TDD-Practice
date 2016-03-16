@@ -6,8 +6,13 @@ import junit.framework.TestCase;
  * Created by wyqin on 3/15/16.
  */
 public class BoardTest extends TestCase {
+    private Board firstBoard;
+
+    public void setUp() {
+        firstBoard = new Board();
+    }
     public void testCreate() {
-        Board firstBoard = new Board();
+
         assertEquals(0, firstBoard.getPawn());
 
         Pawn firstPawn = new Pawn("white");
@@ -19,6 +24,7 @@ public class BoardTest extends TestCase {
         firstBoard.enroll(secondPawn);
         assertEquals(2, firstBoard.getNumberOfPawns());
         assertEquals(secondPawn,firstBoard.get(1));
+
     }
 
 }
