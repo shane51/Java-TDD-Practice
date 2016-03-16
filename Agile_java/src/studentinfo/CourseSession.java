@@ -12,10 +12,19 @@ import java.util.*;
  */
 
 public class CourseSession {
+    static final String NEWLINE = System.getProperty("lines.separator");
+    static final String ROSTER_REPORT_HEADER =
+            "Student" + NEWLINE +
+            "----" + NEWLINE;
+    static final String ROSTER_REPORT_FOOTER =
+            NEWLINE + "# students = ";
+
+
     private String department;
     private String number;
     private ArrayList<Student> students = new ArrayList<Student>();
     private Date startDate;
+
 
 
     CourseSession(String department, String number, Date startDate){
@@ -72,5 +81,23 @@ public class CourseSession {
         int numberOfDays = sessionLength * daysInWeek - daysFromFridayToMonday;
         calendar.add(Calendar.DAY_OF_YEAR, numberOfDays);
         return calendar.getTime();
+    }
+
+    String getRosterReport(){
+        StringBuilder buffer = new StringBuilder();
+
+        buffer.append(ROSTER_REPORT_HEADER);
+
+        Student student = students.get(0);
+        buffer.append(student.getName());
+        buffer.append(NEWLINE);
+
+        student = students.get(1);
+        buffer.append(student.getName());
+        buffer.append(NEWLINE);
+
+        buffer.append(ROSTER_REPORT_FOOTER + students.size() + NEWLINE);
+
+        return buffer.toString();
     }
 }
