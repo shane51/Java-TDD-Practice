@@ -10,7 +10,7 @@ public class CourseSessionTest extends TestCase {
     private CourseSession session;
     private Date startDate;
 
-    Date creatDate(int year, int month, int date){
+    Date createDate(int year, int month, int date){
         GregorianCalendar calendar = new GregorianCalendar();
         calendar.clear();
         calendar.set(Calendar.YEAR, year);
@@ -20,7 +20,7 @@ public class CourseSessionTest extends TestCase {
     }
 
     public void setUp(){
-        startDate = creatDate(2003,1,6);
+        startDate = createDate(2003,1,6);
         session = new CourseSession("ENGL", "101", startDate);
     }
 
@@ -48,7 +48,7 @@ public class CourseSessionTest extends TestCase {
     }
 
     public void testCourseDates(){
-        Date sixteenWeeksOut = creatDate(2003,4,25);
+        Date sixteenWeeksOut = createDate(2003,4,25);
         assertEquals(sixteenWeeksOut, session.getEndDate());
 
     }
