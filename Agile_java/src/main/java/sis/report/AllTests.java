@@ -1,4 +1,4 @@
-package sis.report;
+package main.java.sis.report;
 import junit.framework.*;
 /**
  * Created by wyqin on 3/16/16.

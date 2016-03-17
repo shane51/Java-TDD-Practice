@@ -1,5 +1,5 @@
-package sis.report;
-import sis.studentinfo.*;
+package main.java.sis.report;
+import main.java.sis.studentinfo.*;
 /**
  * Created by wyqin on 3/16/16.
  */

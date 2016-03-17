@@ -1,6 +1,5 @@
-package chessinfo;
-
-import chessinfo.pieces.Pawn;
+package main.java.chessinfo;
+import main.java.chessinfo.pieces.*;
 import junit.framework.TestCase;
 /**
  * Created by wyqin on 3/15/16.

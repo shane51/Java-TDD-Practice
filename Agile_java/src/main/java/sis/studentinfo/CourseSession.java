@@ -2,7 +2,7 @@
  * Created by wyqin on 3/8/16.
  */
 
-package sis.studentinfo;
+package main.java.sis.studentinfo;
 import java.util.*;
 
 /**

@@ -1,5 +1,5 @@
-package sis.report;
-import sis.studentinfo.*;
+package main.java.sis.report;
+import main.java.sis.studentinfo.*;
 
 import junit.framework.TestCase;
 import java.util.*;

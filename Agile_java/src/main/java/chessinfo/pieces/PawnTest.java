@@ -1,4 +1,4 @@
-package chessinfo.pieces;
+package main.java.chessinfo.pieces;
 import junit.framework.TestCase;
 
 /**

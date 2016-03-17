@@ -1,4 +1,4 @@
-package chessinfo.pieces;
+package main.java.chessinfo.pieces;
 
 /**
  * Created by wyqin on 3/15/16.

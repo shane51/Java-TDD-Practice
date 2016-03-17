@@ -1,0 +1,7 @@
+../.idea
+/out
+*.iml
+*.html
+*.css
+*/*.html
+/resources

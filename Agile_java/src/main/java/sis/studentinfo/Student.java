@@ -2,7 +2,7 @@
  * Created by wyqin on 3/8/16.
  */
 
-package sis.studentinfo;
+package main.java.sis.studentinfo;
 public class Student {
     private String name;
     public Student(String name){

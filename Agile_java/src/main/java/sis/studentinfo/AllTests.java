@@ -1,9 +1,9 @@
 /**
  * Created by wyqin on 3/9/16.
  */
-package sis.studentinfo;
+package main.java.sis.studentinfo;
 import junit.framework.TestSuite;
-import sis.report.*;
+import main.java.sis.report.*;
 
 public class AllTests {
     public static TestSuite suite() {

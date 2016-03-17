@@ -1,4 +1,4 @@
-package sis.studentinfo;
+package main.java.sis.studentinfo;
 import java.util.*;
 
 /**
