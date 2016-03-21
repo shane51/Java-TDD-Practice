@@ -13,20 +13,25 @@ import java.util.*;
 
 public class CourseSession {
 
-    static int count;
+    private static int count;
 
     private String department;
     private String number;
     private ArrayList<Student> students = new ArrayList<Student>();
     private Date startDate;
 
-
+    static int getCount() {
+        return count;
+    }
+    static void resetCount() {
+        count = 0;
+    }
 
     public CourseSession(String department, String number, Date startDate){
         this.department = department;
         this.number = number;
         this.startDate = startDate;
-        CourseSession.count += 1;
+        CourseSession.incrementCount();
     }
 
     public void enroll(Student student){
@@ -86,5 +91,8 @@ public class CourseSession {
         return calendar.getTime();
     }
 
+    private static void incrementCount() {
+        CourseSession.count += 1;
+    }
 
 }
