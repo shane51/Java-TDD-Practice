@@ -8,7 +8,7 @@ import java.util.*;
  */
 public class RosterReportTest extends TestCase {
     public void testCreate(){
-        CourseSession session = new CourseSession("ENL", "101", new DateUtil().createDate(2003,1,6));
+        CourseSession session = new CourseSession("ENL", "101", DateUtil.createDate(2003,1,6));
 
         session.enroll(new Student("A"));
         session.enroll(new Student("B"));

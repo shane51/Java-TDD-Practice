@@ -5,7 +5,8 @@ import java.util.*;
  * Created by wyqin on 3/16/16.
  */
 public class DateUtil {
-    public Date createDate(int year, int month, int date) {
+    private DateUtil() {}
+    public static Date createDate(int year, int month, int date) {
         GregorianCalendar calendar = new GregorianCalendar();
         calendar.clear();
         calendar.set(Calendar.YEAR, year);

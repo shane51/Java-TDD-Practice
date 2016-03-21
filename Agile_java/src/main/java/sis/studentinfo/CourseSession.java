@@ -13,7 +13,7 @@ import java.util.*;
 
 public class CourseSession {
 
-
+    static int count;
 
     private String department;
     private String number;
@@ -26,6 +26,7 @@ public class CourseSession {
         this.department = department;
         this.number = number;
         this.startDate = startDate;
+        CourseSession.count += 1;
     }
 
     public void enroll(Student student){
