@@ -39,8 +39,8 @@
       <file leaf-file-name="CourseSession.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/sis/studentinfo/CourseSession.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.7775378">
-              <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.64794815">
+              <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -109,9 +109,9 @@
         <option value="$PROJECT_DIR$/src/main/java/chessinfo/AllTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/sis/studentinfo/DateUtilTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/sis/studentinfo/DateUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sis/studentinfo/CourseSession.java" />
         <option value="$PROJECT_DIR$/src/main/java/sis/studentinfo/CourseSessionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/sis/report/RosterReportTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sis/studentinfo/CourseSession.java" />
       </list>
     </option>
   </component>
@@ -824,9 +824,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AllTests_(1) - 2016.03.17 at 11h 12m 12s.xml">
-      <configuration name="AllTests (1)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CourseSessionTest - 2016.03.21 at 14h 47m 22s.xml">
       <configuration name="CourseSessionTest" configurationId="JUnit" />
     </history-entry>
@@ -849,6 +846,9 @@
       <configuration name="CourseSessionTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CourseSessionTest - 2016.03.22 at 11h 36m 06s.xml">
+      <configuration name="CourseSessionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CourseSessionTest - 2016.03.22 at 11h 39m 15s.xml">
       <configuration name="CourseSessionTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="DateUtilTest - 2016.03.21 at 10h 19m 31s.xml">
@@ -1228,8 +1228,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sis/studentinfo/CourseSession.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7775378">
-          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.64794815">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
           <folding />
         </state>
       </provider>

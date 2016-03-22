@@ -32,12 +32,12 @@ public class CourseSession {
         this.department = department;
         this.number = number;
         this.startDate = startDate;
-        CourseSession.incrementCount();
     }
 
     public static CourseSession create(String department,
                                        String number,
                                        Date startDate) {
+        CourseSession.incrementCount();
         return new CourseSession(department, number, startDate);
     }
 
