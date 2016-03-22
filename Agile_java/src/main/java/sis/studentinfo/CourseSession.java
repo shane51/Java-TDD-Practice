@@ -27,11 +27,18 @@ public class CourseSession {
         count = 0;
     }
 
+
     public CourseSession(String department, String number, Date startDate){
         this.department = department;
         this.number = number;
         this.startDate = startDate;
         CourseSession.incrementCount();
+    }
+
+    public static CourseSession create(String department,
+                                       String number,
+                                       Date startDate) {
+        return new CourseSession(department, number, startDate);
     }
 
     public void enroll(Student student){
