@@ -17,4 +17,18 @@ public class StudentTest extends TestCase {
 
         assertEquals(firstStudentName,firstStudent.getName());
     }
+
+    public void testFullTime(){
+        Student student = new Student("a");
+        assertFalse(student.isFullTime());
+    }
+
+    public void testCredits(){
+        Student student = new Student("a");
+        assertEquals(0, student.getCredits());
+        student.addCredits(3);
+        assertEquals(3, student.getCredits());
+        student.addCredits(4);
+        assertEquals(7, student.getCredits());
+    }
 }
