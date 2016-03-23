@@ -14,7 +14,7 @@ public class Student {
       return name;
     }
     public boolean isFullTime() {
-        return false;
+        return credits >= 12;
     }
     public int getCredits(){
         return credits;
