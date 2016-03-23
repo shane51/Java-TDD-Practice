@@ -14,6 +14,7 @@ import java.util.*;
 public class CourseSession {
 
     private static int count;
+    private static int numberOfCredits;
 
     private String department;
     private String number;
@@ -40,8 +41,12 @@ public class CourseSession {
         CourseSession.incrementCount();
         return new CourseSession(department, number, startDate);
     }
+    void setNumberOfCredits(int numberOfCredits) {
+        this.numberOfCredits = numberOfCredits;
+    }
 
     public void enroll(Student student){
+        student.addCredits(numberOfCredits);
         students.add(student);
     }
 
